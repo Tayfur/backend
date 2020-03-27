@@ -1,0 +1,7 @@
+{
+    "env":{
+        "MONGO_ATLAS_PASS":"tayfurkaya1013",
+        "JWT_KEY":"WinterIsComingGOT2019"
+
+    }
+} 
