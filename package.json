@@ -1,7 +1,10 @@
 {
   "name": "community",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "dev": "nodemon --exec babel-node ./bin/www",
     "build": "babel src --out-dir build",
