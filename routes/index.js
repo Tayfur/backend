@@ -1,12 +1,11 @@
 const express = require('express');
-const router = express.Router();
-import postsRouter from './api/posts';
 import userRouter from './api/users';
+import authRouter from './api/auth';
 
 export const initializeRoutes = app =>{
 
-  app.use('/posts',postsRouter);  
-  app.use('/users',userRouter);  
+  app.use('/auth',authRouter);  
+  app.use('/profil',userRouter);  
 
 
 };
