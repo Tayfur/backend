@@ -7,7 +7,6 @@
   },
   "scripts": {
     "dev": "nodemon --exec babel-node ./bin/www",
-    "build": "babel src --out-dir build",
     "start": "node ./bin/www"
   },
   "dependencies": {
